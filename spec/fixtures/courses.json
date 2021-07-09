@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Ruby",
+    "description": "Um curso de Ruby",
+    "code": "RUBYBASIC",
+    "price": "10.0",
+    "enrollment_deadline": "2021-07-08",
+    "updated_at": "2021-07-09T00:41:39.464-03:00",
+    "instructor_id": 1,
+    "instructor": {
+      "id": 1,
+      "name": "Peter Capaldi",
+      "email": "peter@capaldi.com",
+      "bio": "Twelfth Doctor",
+      "created_at": "2021-07-09T00:41:39.352-03:00",
+      "updated_at": "2021-07-09T00:41:39.426-03:00"
+    }
+  },
+  {
+    "name": "Ruby on Rails",
+    "description": "Um curso de Ruby on Rails",
+    "code": "RUBYRAILS",
+    "price": "20.0",
+    "enrollment_deadline": "2021-10-09",
+    "updated_at": "2021-07-09T00:41:39.514-03:00",
+    "instructor_id": 1,
+    "instructor": {
+      "id": 1,
+      "name": "Peter Capaldi",
+      "email": "peter@capaldi.com",
+      "bio": "Twelfth Doctor",
+      "created_at": "2021-07-09T00:41:39.352-03:00",
+      "updated_at": "2021-07-09T00:41:39.426-03:00"
+    }
+  }
+]
