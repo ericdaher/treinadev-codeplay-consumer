@@ -1,4 +1,10 @@
 <% @courses.each do |course| %>
-  <%= course.name %>
+  <%= link_to course.name, course_path(course.code) %>
   <%= course.instructor %>
 <% end %>
+
+<% if @courses.empty? %>
+  <p>Site temporariamente indisponível</p>
+<% end %>
+
+<%= link_to 'Registrar um novo curso', new_course_path %>

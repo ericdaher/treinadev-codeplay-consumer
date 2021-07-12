@@ -1,0 +1,15 @@
+<%= form_with url: courses_path do |f| %>
+  <%= f.label :name, 'Nome' %>
+  <%= f.text_field :name %>
+  <%= f.label :description, 'Descrição' %>
+  <%= f.text_field :description %>
+  <%= f.label :price, 'Preço' %>
+  <%= f.text_field :price %>
+  <%= f.label :code, 'Código' %>
+  <%= f.text_field :code %>
+  <%= f.label :enrollment_deadline, 'Data limite de matrícula' %>
+  <%= f.text_field :enrollment_deadline %>
+  <%= f.label :instructor_id, 'Instructor ID' %>
+  <%= f.text_field :instructor_id %>
+  <%= f.submit 'Enviar' %>
+<% end %>

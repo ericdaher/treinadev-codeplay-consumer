@@ -1,0 +1,5 @@
+<%= @course.name %>
+<%= @course.description %>
+<%= number_to_currency @course.price, unit: 'R$', separator: ',', delimiter: '.', format: '%u %n' %>
+<%= @course.enrollment_deadline.strftime('%d/%m/%Y') %>
+<%= @course.code %>
